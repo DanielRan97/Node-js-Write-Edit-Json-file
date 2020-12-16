@@ -9,7 +9,7 @@ const user = {
 }
 
 
-//function writeJsinFile(){
+//function writeJsonFile(){
 // const bookJson = JSON.stringify(user);
 //
 // fs.writeFileSync('1-json.json', bookJson);
@@ -30,7 +30,7 @@ function updateJson(name,age){
     console.log(successLog('json update to :' + dataToStrinf));
 }
 
-//writeJsinFile()
+//writeJsonFile()
 updateJson('daniel',23);
 
 
